@@ -53,7 +53,7 @@ class Tapper:
 
 # Define the WinkEmGame class
 class WinkEmGame:
-    def __init__(self, num_sitters, num_iterations):
+    def __init__(self, num_sitters, num_iterations, num_favourites, num_hated):
         self.num_sitters = num_sitters
         self.num_tappers = num_sitters + 1  # One extra tapper for the empty chair
         self.tot_players = self.num_sitters + self.num_tappers
@@ -62,6 +62,36 @@ class WinkEmGame:
         self.sitters = [Sitter(i) for i in range(1, num_sitters + 1)]
         self.tappers = [Tapper(i) for i in range(1, num_sitters + 2)]
         self.tapper_sitter_map = self.assign_tappers_to_sitters()
+        self.num_favourites = num_favourites
+        self.favourites = self.determine_favourites()
+        self.num_hated = num_hated
+        self.hated = self.determine_hated()
+
+    def determine_favourites(self):
+        favourites = random.sample(self.sitters, self.num_favourites)  # Select unique favourites
+
+        for sitter in favourites:
+            sitter.winkability += 0.2
+            print(f"Sitter ID: {sitter.sitter_id} is now a favourite with winkability {sitter.winkability}")
+
+        return favourites
+    
+    def determine_hated(self):
+        non_favourites = [sitter for sitter in self.sitters if sitter not in self.favourites]
+
+        # Ensure there are enough non-favourites to select from
+        if self.num_hated > len(non_favourites):
+            raise ValueError("Number of hated sitters cannot exceed the number of non-favourite sitters.")
+
+        # Randomly select hated sitters from the non-favourites
+        hated = random.sample(non_favourites, self.num_hated)
+
+        # Decrease winkability for each hated sitter
+        for sitter in hated:
+            sitter.winkability -= 0.2
+            print(f"Sitter ID: {sitter.sitter_id} is now hated with winkability {sitter.winkability}")
+
+        return hated
 
     def assign_tappers_to_sitters(self):
         """Assign each tapper to a sitter, leaving one tapper for the empty chair."""
@@ -93,9 +123,6 @@ class WinkEmGame:
         #winked_sitter = random.choice(self.sitters) To be removed
         return empty_chair_tapper
     
-    def reset_winkability(self):
-        for sitter in self.sitters:
-            sitter.winkability = 1
     
     def position_based_probability_enhancer(self, winker):
         """
@@ -143,7 +170,11 @@ class WinkEmGame:
     def reset_winkability(self):
         for sitter in self.sitters:
             sitter.winkability = 1
-    
+        for sitter in self.favourites:
+            sitter.winkability += 0.2
+        for sitter in self.hated:
+            sitter.winkability -= 0.2
+            
 
 
     def random_escape_attempt(self, winked_sitter, sitter_tapper, winker):
@@ -209,7 +240,7 @@ class WinkEmGame:
 
 
 # Run the game
-wink_em_game = WinkEmGame(num_sitters=19, num_iterations=25)
+wink_em_game = WinkEmGame(num_sitters=19, num_iterations=5, num_favourites=5, num_hated=5)
 wink_em_game.run()
 
 # Restore stdout
