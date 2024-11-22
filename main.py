@@ -26,7 +26,7 @@ class Sitter:
 
     def __repr__(self):
         # String representation for the Sitter's status
-        return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Fun: {self.fun}"
+        return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Fun: {self.fun} | Winkability: {self.winkability}"
 
 
 # Define the Tapper class
@@ -63,6 +63,16 @@ class WinkEmGame:
         self.tappers = [Tapper(i) for i in range(1, num_sitters + 2)]
         self.tapper_sitter_map = self.assign_tappers_to_sitters()
 
+    def assign_tappers_to_sitters(self):
+        """Assign each tapper to a sitter, leaving one tapper for the empty chair."""
+        tapper_sitter_map = {}
+        for i, tapper in enumerate(self.tappers):
+            if i < self.num_sitters:
+                tapper_sitter_map[tapper] = self.sitters[i]
+            else:
+                tapper_sitter_map[tapper] = None  # Empty chair assignment
+        return tapper_sitter_map
+
     def remove_fun(self):
         """Reduce fun for all players by a fixed amount each turn."""
         for sitter in self.sitters:
@@ -70,7 +80,7 @@ class WinkEmGame:
         for tapper in self.tappers:
             tapper.fun -= self.minus_fun
 
-    def assign_tapprandom_winker_for_sitter(self, sitter):
+    def find_tapper_for_sitter(self, sitter):
         """Find the tapper assigned to a specific sitter."""
         for tapper, mapped_sitter in self.tapper_sitter_map.items():
             if mapped_sitter == sitter:
@@ -88,44 +98,51 @@ class WinkEmGame:
             sitter.winkability = 1
     
     def position_based_probability_enhancer(self, winker):
-        position = winker.tapper_id
-        halfway = self.num_tappers // 2
-        range = math.trunc(0.1 * self.num_tappers)
-        player_across = (position + halfway) % self.num_tappers # position +/- the number of tappers/2 
+        """
+        Enhances the winkability of sitters based on their positions relative to the winker.
+        """
+        position = winker.tapper_id  # Position of the winker
+        halfway = self.num_tappers // 2  # Halfway point around the circle of tappers
+        range_boost = math.trunc(0.1 * self.num_tappers)  # Range for enhancing winkability
+        winkability_boost = 0.2  # Initial boost factor
 
-        player_across_temp1 = player_across
-        player_across_temp2 = player_across
-        winkability_boost = 0.1
+        # Find the tapper directly across the winker
+        player_across = (position + halfway) % self.num_tappers
 
-        for tapper in self.tappers:
-            if tapper.tapper_id == player_across:
-                tapper_across = tapper
-        sitter_across1 = self.tapper_sitter_map[tapper_across]
-        sitter_across2 = self.tapper_sitter_map[tapper_across]
-        sitter_across1.winkability = sitter_across1.winkability * (1+winkability_boost)
+        # Locate the tapper and sitter directly across
+        tapper_across = next((tapper for tapper in self.tappers if tapper.tapper_id == player_across), None)
+        if tapper_across and self.tapper_sitter_map[tapper_across]:
+            sitter_across = self.tapper_sitter_map[tapper_across]
+            sitter_across.winkability *= (1 + winkability_boost)
 
-        for i in range(range):
-            winkability_boost = winkability_boost/2
-            player_across_temp1 = (player_across_temp1 + 1) % self.num_tappers
-            for tapper in self.tappers:
-                if tapper.tapper_id == player_across_temp1:
-                        tapper_temp1 = tapper
+        # Enhance winkability for sitters near the player across
+        for i in range(1, range_boost + 1):  # Add 1 to include the range_boost boundary
+            winkability_boost /= 2  # Halve the boost for each step away
 
-            player_across_temp2 = (player_across_temp2 + 1) % self.num_tappers
-            for tapper in self.tappers:
-                if tapper.tapper_id == player_across_temp2:
-                        tapper_temp2 = tapper
+            # Find sitters on either side of the player across
+            player_across_temp1 = (player_across + i) % self.num_tappers
+            player_across_temp2 = (player_across - i) % self.num_tappers
 
-            sitter_temp1 = self.tapper_sitter_map[tapper_temp1]
-            sitter_temp1.winkability = sitter_temp1.winkability * (1+ winkability_boost)
+            tapper_temp1 = next((tapper for tapper in self.tappers if tapper.tapper_id == player_across_temp1), None)
+            tapper_temp2 = next((tapper for tapper in self.tappers if tapper.tapper_id == player_across_temp2), None)
 
-            sitter_temp2 = self.tapper_sitter_map[tapper_temp2]
-            sitter_temp2.winkability = sitter_temp2.winkability * (1+ winkability_boost)
-        
-        winkability_boost = .1
-    '''
-    def choose_sitter(self, winker):
-    '''
+            if tapper_temp1 and self.tapper_sitter_map[tapper_temp1]:
+                sitter_temp1 = self.tapper_sitter_map[tapper_temp1]
+                sitter_temp1.winkability *= (1 + winkability_boost)
+
+            if tapper_temp2 and self.tapper_sitter_map[tapper_temp2]:
+                sitter_temp2 = self.tapper_sitter_map[tapper_temp2]
+                sitter_temp2.winkability *= (1 + winkability_boost)
+
+    def choose_sitter(self):
+        sitters = self.sitters
+        winkabilities = [sitter.winkability for sitter in sitters]
+        winked_sitter = random.choices(sitters, weights=winkabilities,k=1)[0]
+        return winked_sitter
+    
+    def reset_winkability(self):
+        for sitter in self.sitters:
+            sitter.winkability = 1
     
 
 
@@ -163,16 +180,16 @@ class WinkEmGame:
             print(f"\n--- Iteration {iteration} ---")
             empty_chair_tapper = self.find_winker()
             self.position_based_probability_enhancer(empty_chair_tapper)
-            '''
-            We need a function that returns winked_sitter using the winkability attribute
-            reset winkability
-            '''
+            winked_sitter = self.choose_sitter()
+            for sitter in self.sitters:
+                print(f"Sitter ID: {sitter.sitter_id} | Winkability: {sitter.winkability}")
             print(f"Tapper {empty_chair_tapper.tapper_id} winked at Sitter {winked_sitter.sitter_id}.")
+            self.reset_winkability()
 
             sitter_tapper = self.find_tapper_for_sitter(winked_sitter)
             print(f"Tapper {sitter_tapper.tapper_id} is assigned to Sitter {winked_sitter.sitter_id}.")
 
-            if self.random_etapper_idscape_attempt(winked_sitter, sitter_tapper, empty_chair_tapper):
+            if self.random_escape_attempt(winked_sitter, sitter_tapper, empty_chair_tapper):
                 print(f"Sitter {winked_sitter.sitter_id} escaped successfully!")
             else:
                 print(f"Sitter {winked_sitter.sitter_id} was tapped.")
@@ -192,7 +209,7 @@ class WinkEmGame:
 
 
 # Run the game
-wink_em_game = WinkEmGame(num_sitters=9, num_iterations=25)
+wink_em_game = WinkEmGame(num_sitters=19, num_iterations=25)
 wink_em_game.run()
 
 # Restore stdout
