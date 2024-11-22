@@ -1,7 +1,6 @@
 import random
 import numpy as np
 import sys
-import math
 
 # Redirect output to a file to save the game log
 sys.stdout = open("wink_em_output.txt", "w")
@@ -12,11 +11,10 @@ class Sitter:
         self.sitter_id = sitter_id
         self.escapes = 0
         self.taps = 0
-        self.escapability = np.random.normal(loc=5, scale=1.0)  # Ability to escape
-        self.escapability = np.clip(self.escapability, 1.01, 9.99)  # Limit escapability between 1 and 10
+        self.escapability = np.random.normal(loc=5, scale=1)  # Ability to escape
+        self.escapability = np.clip(self.escapability, 1, 10)  # Limit escapability between 1 and 10
         self.consistency = random.uniform(0.5, 1.0)  # How consistent the sitter is
         self.fun = 0  # Fun metric, influenced by interactions
-        self.winkability = 1
 
     def escape(self):
         self.escapes += 1  # Increment escapes on a successful escape
@@ -35,8 +33,8 @@ class Tapper:
         self.tapper_id = tapper_id
         self.successful_taps = 0
         self.failed_taps = 0
-        self.tapability = np.random.normal(loc=5, scale=1.0)  # Ability to tap
-        self.tapability = np.clip(self.tapability, 1.01, 9.99)  # Limit tapability between 1 and 10
+        self.tapability = np.random.normal(loc=5, scale=2)  # Ability to tap
+        self.tapability = np.clip(self.tapability, 1, 10)  # Limit tapability between 1 and 10
         self.consistency = random.uniform(0.5, 1.0)  # How consistent the tapper is
         self.fun = 0  # Fun metric, influenced by interactions
 
@@ -70,64 +68,28 @@ class WinkEmGame:
         for tapper in self.tappers:
             tapper.fun -= self.minus_fun
 
-    def assign_tapprandom_winker_for_sitter(self, sitter):
+    def assign_tappers_to_sitters(self):
+        """Assign each tapper to a sitter, leaving one tapper for the empty chair."""
+        tapper_sitter_map = {}
+        for i, tapper in enumerate(self.tappers):
+            if i < self.num_sitters:
+                tapper_sitter_map[tapper] = self.sitters[i]
+            else:
+                tapper_sitter_map[tapper] = None  # Empty chair assignment
+        return tapper_sitter_map
+
+    def find_tapper_for_sitter(self, sitter):
         """Find the tapper assigned to a specific sitter."""
         for tapper, mapped_sitter in self.tapper_sitter_map.items():
             if mapped_sitter == sitter:
                 return tapper
         return None
 
-    def find_winker(self):
+    def random_wink(self):
         """Randomly select a sitter for the empty chair tapper to wink at."""
         empty_chair_tapper = next(tapper for tapper, sitter in self.tapper_sitter_map.items() if sitter is None)
-        #winked_sitter = random.choice(self.sitters) To be removed
-        return empty_chair_tapper
-    
-    def reset_winkability(self):
-        for sitter in self.sitters:
-            sitter.winkability = 1
-    
-    def position_based_probability_enhancer(self, winker):
-        position = winker.tapper_id
-        halfway = self.num_tappers // 2
-        range = math.trunc(0.1 * self.num_tappers)
-        player_across = (position + halfway) % self.num_tappers # position +/- the number of tappers/2 
-
-        player_across_temp1 = player_across
-        player_across_temp2 = player_across
-        winkability_boost = 0.1
-
-        for tapper in self.tappers:
-            if tapper.tapper_id == player_across:
-                tapper_across = tapper
-        sitter_across1 = self.tapper_sitter_map[tapper_across]
-        sitter_across2 = self.tapper_sitter_map[tapper_across]
-        sitter_across1.winkability = sitter_across1.winkability * (1+winkability_boost)
-
-        for i in range(range):
-            winkability_boost = winkability_boost/2
-            player_across_temp1 = (player_across_temp1 + 1) % self.num_tappers
-            for tapper in self.tappers:
-                if tapper.tapper_id == player_across_temp1:
-                        tapper_temp1 = tapper
-
-            player_across_temp2 = (player_across_temp2 + 1) % self.num_tappers
-            for tapper in self.tappers:
-                if tapper.tapper_id == player_across_temp2:
-                        tapper_temp2 = tapper
-
-            sitter_temp1 = self.tapper_sitter_map[tapper_temp1]
-            sitter_temp1.winkability = sitter_temp1.winkability * (1+ winkability_boost)
-
-            sitter_temp2 = self.tapper_sitter_map[tapper_temp2]
-            sitter_temp2.winkability = sitter_temp2.winkability * (1+ winkability_boost)
-        
-        winkability_boost = .1
-    '''
-    def choose_sitter(self, winker):
-    '''
-    
-
+        winked_sitter = random.choice(self.sitters)
+        return empty_chair_tapper, winked_sitter
 
     def random_escape_attempt(self, winked_sitter, sitter_tapper, winker):
         """Determine if the sitter can escape or is tapped."""
@@ -161,18 +123,13 @@ class WinkEmGame:
         """Run the game for the specified number of iterations."""
         for iteration in range(1, self.num_iterations + 1):
             print(f"\n--- Iteration {iteration} ---")
-            empty_chair_tapper = self.find_winker()
-            self.position_based_probability_enhancer(empty_chair_tapper)
-            '''
-            We need a function that returns winked_sitter using the winkability attribute
-            reset winkability
-            '''
+            empty_chair_tapper, winked_sitter = self.random_wink()
             print(f"Tapper {empty_chair_tapper.tapper_id} winked at Sitter {winked_sitter.sitter_id}.")
 
             sitter_tapper = self.find_tapper_for_sitter(winked_sitter)
             print(f"Tapper {sitter_tapper.tapper_id} is assigned to Sitter {winked_sitter.sitter_id}.")
 
-            if self.random_etapper_idscape_attempt(winked_sitter, sitter_tapper, empty_chair_tapper):
+            if self.random_escape_attempt(winked_sitter, sitter_tapper, empty_chair_tapper):
                 print(f"Sitter {winked_sitter.sitter_id} escaped successfully!")
             else:
                 print(f"Sitter {winked_sitter.sitter_id} was tapped.")
