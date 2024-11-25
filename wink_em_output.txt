@@ -1,0 +1,725 @@
+
+--- Iteration 1 ---
+Tapper 10 winked at Sitter 3.
+Tapper 3 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 4.948844435956711, Total: 8.322225702385726, Random: 6.133768072677147
+Sitter 3 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 0 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: 0 | Patience: 3
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: 0 | Patience: 3
+Sitter 3 | Escapes: 0 | Taps: 1 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 2 | Patience: 5
+Sitter 4 | Escapes: 0 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 0 | Patience: 5
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: 0 | Patience: 5
+Sitter 6 | Escapes: 0 | Taps: 0 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 0 | Patience: 5
+Sitter 7 | Escapes: 0 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 4
+Sitter 8 | Escapes: 0 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 0 | Patience: 5
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: 0 | Patience: 2
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: 0
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: 0
+Tapper 3 is guarding Sitter 3 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 2
+Tapper 4 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 0
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: 0
+Tapper 6 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 0
+Tapper 7 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 0
+Tapper 8 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 0
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: 0
+Tapper 10 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 2
+
+--- Iteration 2 ---
+Tapper 10 winked at Sitter 4.
+Tapper 4 is assigned to Sitter 4.
+Sitter Value: 5.020901459849853, Tapper Value: 4.138148641793295, Total: 9.159050101643148, Random: 4.384622073063081
+Sitter 4 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 0 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: 0 | Patience: 2
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: 0 | Patience: 2
+Sitter 3 | Escapes: 0 | Taps: 1 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 2 | Patience: 4
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 2 | Patience: 6
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: 0 | Patience: 4
+Sitter 6 | Escapes: 0 | Taps: 0 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 0 | Patience: 4
+Sitter 7 | Escapes: 0 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 3
+Sitter 8 | Escapes: 0 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 0 | Patience: 4
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: 0 | Patience: 1
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: 0
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: 0
+Tapper 3 is guarding Sitter 3 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 2
+Tapper 4 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 2
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: 0
+Tapper 6 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 0
+Tapper 7 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 0
+Tapper 8 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 0
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: 0
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 4
+
+--- Iteration 3 ---
+Tapper 4 winked at Sitter 8.
+Tapper 8 is assigned to Sitter 8.
+Sitter Value: 5.443706190093134, Tapper Value: 3.6992478607271186, Total: 9.142954050820252, Random: 4.990492896560971
+Sitter 8 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 0 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: 0 | Patience: 1
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: 0 | Patience: 1
+Sitter 3 | Escapes: 0 | Taps: 1 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 2 | Patience: 3
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 2 | Patience: 5
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: 0 | Patience: 3
+Sitter 6 | Escapes: 0 | Taps: 0 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 0 | Patience: 3
+Sitter 7 | Escapes: 0 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 2
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 2 | Patience: 6
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -1 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -1
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: 0
+Tapper 3 is guarding Sitter 3 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 2
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 4
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: 0
+Tapper 6 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -1
+Tapper 7 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: -1
+Tapper 8 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 2
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: 0
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 4
+
+--- Iteration 4 ---
+Tapper 8 winked at Sitter 3.
+Tapper 3 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 4.948844435956711, Total: 8.322225702385726, Random: 1.4577069519263353
+Sitter 3 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 0 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -1 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -1 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 1 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 4 | Patience: 5
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 2 | Patience: 4
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: 0 | Patience: 2
+Sitter 6 | Escapes: 0 | Taps: 0 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 0 | Patience: 2
+Sitter 7 | Escapes: 0 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 1
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 2 | Patience: 5
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -2 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -2
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: 0
+Tapper 3 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 4
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 4
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -1
+Tapper 6 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -2
+Tapper 7 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: -2
+Tapper 8 is guarding Sitter 3 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 4
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: 0
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 4
+
+--- Iteration 5 ---
+Tapper 3 winked at Sitter 7.
+Tapper 7 is assigned to Sitter 7.
+Sitter Value: 4.824727731163851, Tapper Value: 4.598142809958828, Total: 9.422870541122679, Random: 0.7414561855282658
+Sitter 7 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 0 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -2 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -2 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 1 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 4 | Patience: 4
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 2 | Patience: 3
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: 0 | Patience: 1
+Sitter 6 | Escapes: 0 | Taps: 0 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 0 | Patience: 1
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 2 | Patience: 5
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 2 | Patience: 4
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -3 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -3
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -1
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 6
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 4
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -2
+Tapper 6 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -3
+Tapper 7 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 0
+Tapper 8 is guarding Sitter 3 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 4
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: 0
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 3
+
+--- Iteration 6 ---
+Tapper 7 winked at Sitter 1.
+Tapper 1 is assigned to Sitter 1.
+Sitter Value: 3.395540985497658, Tapper Value: 5.576738818433987, Total: 8.972279803931645, Random: 3.632699674892045
+Sitter 1 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: 0 | Patience: 4
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -3 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 1 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 4 | Patience: 3
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 2 | Patience: 2
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -1 | Patience: 0
+Sitter 6 | Escapes: 0 | Taps: 0 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -1 | Patience: 0
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 2 | Patience: 4
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 2 | Patience: 3
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -4 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -1
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -2
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 6
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 3
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -3
+Tapper 6 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -4
+Tapper 7 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 2
+Tapper 8 is guarding Sitter 3 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 4
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -1
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 2
+
+--- Iteration 7 ---
+Tapper 7 winked at Sitter 6.
+Tapper 6 is assigned to Sitter 6.
+Sitter Value: 3.3820851044355873, Tapper Value: 2.2403074431186565, Total: 5.622392547554243, Random: 4.184582947818873
+Sitter 6 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: 0 | Patience: 3
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -4 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 1 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 4 | Patience: 2
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 2 | Patience: 1
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -2 | Patience: 0
+Sitter 6 | Escapes: 0 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 1 | Patience: 6
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 2 | Patience: 3
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 2 | Patience: 2
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -5 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -1
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -3
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 6
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 2
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -4
+Tapper 6 is guarding Sitter 6 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -2
+Tapper 7 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 4
+Tapper 8 is guarding Sitter 3 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 3
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -2
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 1
+
+--- Iteration 8 ---
+Tapper 7 winked at Sitter 3.
+Tapper 8 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 3.6992478607271186, Total: 7.072629127156134, Random: 5.131875484246528
+Sitter 3 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: 0 | Patience: 2
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -5 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 2 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 6 | Patience: 5
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 1 | Patience: 0
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -3 | Patience: 0
+Sitter 6 | Escapes: 0 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 1 | Patience: 5
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 2 | Patience: 2
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 2 | Patience: 1
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -6 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -1
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -4
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 5
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 1
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -5
+Tapper 6 is guarding Sitter 6 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -2
+Tapper 7 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 6
+Tapper 8 is guarding Sitter 3 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 5
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -3
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 0
+
+--- Iteration 9 ---
+Tapper 7 winked at Sitter 6.
+Tapper 6 is assigned to Sitter 6.
+Sitter Value: 3.3820851044355873, Tapper Value: 2.2403074431186565, Total: 5.622392547554243, Random: 1.2815692347714214
+Sitter 6 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: 0 | Patience: 1
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -6 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 2 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 6 | Patience: 4
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: 0 | Patience: 0
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -4 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 3 | Patience: 6
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 2 | Patience: 1
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 1 | Patience: 0
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -7 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -2
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -5
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 4
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 0
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -6
+Tapper 6 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 0
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 8
+Tapper 8 is guarding Sitter 3 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 5
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -4
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -1
+
+--- Iteration 10 ---
+Tapper 6 winked at Sitter 3.
+Tapper 8 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 3.6992478607271186, Total: 7.072629127156134, Random: 4.564155531886043
+Sitter 3 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -1 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -7 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 3 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 8 | Patience: 5
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -1 | Patience: 0
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -5 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 3 | Patience: 5
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 1 | Patience: 0
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 0 | Patience: 0
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -8 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -3
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -6
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 3
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -1
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -7
+Tapper 6 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 2
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 8
+Tapper 8 is guarding Sitter 3 | Successful Taps: 2 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 7
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -5
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -2
+
+--- Iteration 11 ---
+Tapper 6 winked at Sitter 3.
+Tapper 8 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 3.6992478607271186, Total: 7.072629127156134, Random: 4.800403306468945
+Sitter 3 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -2 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -8 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 10 | Patience: 5
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -2 | Patience: 0
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -6 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 3 | Patience: 4
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 0
+Sitter 8 | Escapes: 1 | Taps: 0 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -1 | Patience: 0
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -9 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -4
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -7
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 2
+Tapper 4 is guarding Sitter 8 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -2
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -8
+Tapper 6 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 4
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 8
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 9
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -6
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -3
+
+--- Iteration 12 ---
+Tapper 6 winked at Sitter 8.
+Tapper 4 is assigned to Sitter 8.
+Sitter Value: 5.443706190093134, Tapper Value: 4.138148641793295, Total: 9.581854831886428, Random: 9.105794959517999
+Sitter 8 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -3 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -9 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 10 | Patience: 4
+Sitter 4 | Escapes: 1 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -3 | Patience: 0
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -7 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 3 | Patience: 3
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: -1 | Patience: 0
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 1 | Patience: 6
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -10 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -5
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -8
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 1
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 0
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -9
+Tapper 6 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 6
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 7
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 9
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -7
+Tapper 10 is guarding Sitter 4 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -4
+
+--- Iteration 13 ---
+Tapper 6 winked at Sitter 4.
+Tapper 10 is assigned to Sitter 4.
+Sitter Value: 5.020901459849853, Tapper Value: 3.333433848048974, Total: 8.354335307898827, Random: 3.9572086421434
+Sitter 4 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -4 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -10 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 10 | Patience: 3
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -1 | Patience: 6
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -8 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 3 | Patience: 2
+Sitter 7 | Escapes: 1 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: -2 | Patience: 0
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 1 | Patience: 5
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -11 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -6
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -9
+Tapper 3 is guarding Sitter 7 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 0
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 0
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -10
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 8
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 6
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 9
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -8
+Tapper 10 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -2
+
+--- Iteration 14 ---
+Tapper 10 winked at Sitter 7.
+Tapper 3 is assigned to Sitter 7.
+Sitter Value: 4.824727731163851, Tapper Value: 4.948844435956711, Total: 9.773572167120562, Random: 0.45610884868578655
+Sitter 7 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -5 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -11 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 10 | Patience: 2
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -1 | Patience: 5
+Sitter 5 | Escapes: 0 | Taps: 0 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -9 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 3 | Patience: 1
+Sitter 7 | Escapes: 2 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 5
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 1 | Patience: 4
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -12 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -7
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -10
+Tapper 3 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 2 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 2
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: 0
+Tapper 5 is guarding Sitter 5 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -11
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 8
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 5
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 8
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -9
+Tapper 10 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 0
+
+--- Iteration 15 ---
+Tapper 3 winked at Sitter 5.
+Tapper 5 is assigned to Sitter 5.
+Sitter Value: 5.287445630090443, Tapper Value: 4.447556098847641, Total: 9.735001728938084, Random: 6.455744012609584
+Sitter 5 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -6 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -12 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 10 | Patience: 1
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -1 | Patience: 4
+Sitter 5 | Escapes: 0 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -7 | Patience: 6
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 2 | Patience: 0
+Sitter 7 | Escapes: 2 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 4
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 1 | Patience: 3
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -13 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -8
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -11
+Tapper 3 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 2 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 4
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -1
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -9
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 8
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 4
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 7
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -10
+Tapper 10 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 0
+
+--- Iteration 16 ---
+Tapper 3 winked at Sitter 5.
+Tapper 5 is assigned to Sitter 5.
+Sitter Value: 5.287445630090443, Tapper Value: 4.447556098847641, Total: 9.735001728938084, Random: 2.591426109953254
+Sitter 5 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -7 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 0 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -13 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 9 | Patience: 0
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -1 | Patience: 3
+Sitter 5 | Escapes: 1 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -5 | Patience: 6
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 1 | Patience: 0
+Sitter 7 | Escapes: 2 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 3
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 1 | Patience: 2
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -14 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -9
+Tapper 2 is guarding Sitter 2 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -12
+Tapper 3 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 2 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 6
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -2
+Tapper 5 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -7
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 7
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 3
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 6
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -11
+Tapper 10 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 0
+
+--- Iteration 17 ---
+Tapper 5 winked at Sitter 2.
+Tapper 2 is assigned to Sitter 2.
+Sitter Value: 3.773876148412189, Tapper Value: 3.5548268263875196, Total: 7.328702974799709, Random: 7.304592190947344
+Sitter 2 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -8 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -11 | Patience: 4
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 8 | Patience: 0
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -1 | Patience: 2
+Sitter 5 | Escapes: 1 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -5 | Patience: 5
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: 0 | Patience: 0
+Sitter 7 | Escapes: 2 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 2
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 1 | Patience: 1
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -15 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -10
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -10
+Tapper 3 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 2 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 6
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -3
+Tapper 5 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -5
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 6
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 2
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 5
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -12
+Tapper 10 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -1
+
+--- Iteration 18 ---
+Tapper 5 winked at Sitter 5.
+Tapper 3 is assigned to Sitter 5.
+Sitter Value: 5.287445630090443, Tapper Value: 4.948844435956711, Total: 10.236290066047154, Random: 0.5119899054738072
+Sitter 5 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -9 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -11 | Patience: 3
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 7 | Patience: 0
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -1 | Patience: 1
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -3 | Patience: 6
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -1 | Patience: 0
+Sitter 7 | Escapes: 2 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 1
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: 0 | Patience: 0
+Sitter 9 | Escapes: 0 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -16 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -11
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -10
+Tapper 3 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 3 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 8
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -4
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -3
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 5
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 1
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 4
+Tapper 9 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 0 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -13
+Tapper 10 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -2
+
+--- Iteration 19 ---
+Tapper 3 winked at Sitter 9.
+Tapper 9 is assigned to Sitter 9.
+Sitter Value: 3.1949367745666786, Tapper Value: 2.222632261777771, Total: 5.4175690363444495, Random: 1.4012135397252143
+Sitter 9 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -10 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -11 | Patience: 2
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 6 | Patience: 0
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -2 | Patience: 0
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -3 | Patience: 5
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -2 | Patience: 0
+Sitter 7 | Escapes: 2 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: -1 | Patience: 0
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -1 | Patience: 0
+Sitter 9 | Escapes: 1 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -14 | Patience: 3
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -12
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -10
+Tapper 3 is guarding Sitter 9 | Successful Taps: 1 | Failed Taps: 3 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 10
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -5
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -3
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 4
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 0
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 3
+Tapper 9 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 1 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -11
+Tapper 10 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -3
+
+--- Iteration 20 ---
+Tapper 9 winked at Sitter 7.
+Tapper 10 is assigned to Sitter 7.
+Sitter Value: 4.824727731163851, Tapper Value: 3.333433848048974, Total: 8.158161579212825, Random: 1.308635838685704
+Sitter 7 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -11 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -11 | Patience: 1
+Sitter 3 | Escapes: 1 | Taps: 4 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 5 | Patience: 0
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -3 | Patience: 0
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -3 | Patience: 4
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -3 | Patience: 0
+Sitter 7 | Escapes: 3 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 1 | Patience: 5
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -2 | Patience: 0
+Sitter 9 | Escapes: 1 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -14 | Patience: 2
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -13
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -10
+Tapper 3 is guarding Sitter 9 | Successful Taps: 1 | Failed Taps: 3 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 10
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -6
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -3
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 3
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: -1
+Tapper 8 is guarding Sitter 3 | Successful Taps: 3 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 2
+Tapper 9 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -9
+Tapper 10 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 2 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: -1
+
+--- Iteration 21 ---
+Tapper 10 winked at Sitter 3.
+Tapper 8 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 3.6992478607271186, Total: 7.072629127156134, Random: 5.160051874611667
+Sitter 3 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -12 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -12 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 5 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 7 | Patience: 5
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -4 | Patience: 0
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -3 | Patience: 3
+Sitter 6 | Escapes: 1 | Taps: 1 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -4 | Patience: 0
+Sitter 7 | Escapes: 3 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 1 | Patience: 4
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -3 | Patience: 0
+Sitter 9 | Escapes: 1 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -14 | Patience: 1
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -14
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -10
+Tapper 3 is guarding Sitter 9 | Successful Taps: 1 | Failed Taps: 3 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 10
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -7
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -3
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 2
+Tapper 7 is guarding Sitter 6 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: -2
+Tapper 8 is guarding Sitter 3 | Successful Taps: 4 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 4
+Tapper 9 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -9
+Tapper 10 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 2 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 1
+
+--- Iteration 22 ---
+Tapper 10 winked at Sitter 6.
+Tapper 7 is assigned to Sitter 6.
+Sitter Value: 3.3820851044355873, Tapper Value: 4.598142809958828, Total: 7.9802279143944155, Random: 4.9681941247616574
+Sitter 6 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -13 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -13 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 5 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 7 | Patience: 4
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -5 | Patience: 0
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -3 | Patience: 2
+Sitter 6 | Escapes: 1 | Taps: 2 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -2 | Patience: 6
+Sitter 7 | Escapes: 3 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 1 | Patience: 3
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -4 | Patience: 0
+Sitter 9 | Escapes: 1 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -15 | Patience: 0
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -15
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -11
+Tapper 3 is guarding Sitter 9 | Successful Taps: 1 | Failed Taps: 3 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 9
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -8
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -4
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 1
+Tapper 7 is guarding Sitter 6 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 0
+Tapper 8 is guarding Sitter 3 | Successful Taps: 4 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 4
+Tapper 9 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -9
+Tapper 10 is guarding None (empty chair) | Successful Taps: 0 | Failed Taps: 2 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 3
+
+--- Iteration 23 ---
+Tapper 10 winked at Sitter 9.
+Tapper 3 is assigned to Sitter 9.
+Sitter Value: 3.1949367745666786, Tapper Value: 4.948844435956711, Total: 8.14378121052339, Random: 2.5246697698638534
+Sitter 9 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -14 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -14 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 5 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 7 | Patience: 3
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -6 | Patience: 0
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -3 | Patience: 1
+Sitter 6 | Escapes: 1 | Taps: 2 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -2 | Patience: 5
+Sitter 7 | Escapes: 3 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 1 | Patience: 2
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -5 | Patience: 0
+Sitter 9 | Escapes: 2 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -13 | Patience: 3
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -16
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -12
+Tapper 3 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 4 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 11
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -9
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -5
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: 0
+Tapper 7 is guarding Sitter 6 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 0
+Tapper 8 is guarding Sitter 3 | Successful Taps: 4 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 4
+Tapper 9 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -9
+Tapper 10 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 2 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 5
+
+--- Iteration 24 ---
+Tapper 3 winked at Sitter 3.
+Tapper 8 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 3.6992478607271186, Total: 7.072629127156134, Random: 4.16378368535266
+Sitter 3 was tapped.
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -15 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -15 | Patience: 0
+Sitter 3 | Escapes: 1 | Taps: 6 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 9 | Patience: 5
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -7 | Patience: 0
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -4 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 2 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -2 | Patience: 4
+Sitter 7 | Escapes: 3 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 1 | Patience: 1
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -6 | Patience: 0
+Sitter 9 | Escapes: 2 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -13 | Patience: 2
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -17
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -13
+Tapper 3 is guarding None (empty chair) | Successful Taps: 1 | Failed Taps: 4 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 13
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -10
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -6
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -1
+Tapper 7 is guarding Sitter 6 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: 0
+Tapper 8 is guarding Sitter 3 | Successful Taps: 5 | Failed Taps: 1 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 6
+Tapper 9 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -9
+Tapper 10 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 2 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 5
+
+--- Iteration 25 ---
+Tapper 3 winked at Sitter 3.
+Tapper 8 is assigned to Sitter 3.
+Sitter Value: 3.3733812664290155, Tapper Value: 3.6992478607271186, Total: 7.072629127156134, Random: 3.3072093768614854
+Sitter 3 escaped successfully!
+
+Current Sitters Status:
+Sitter 1 | Escapes: 0 | Taps: 1 | Escapability: 5.647572530999955 | Consistency: 0.6012390220504961 | Fun: -16 | Patience: 0
+Sitter 2 | Escapes: 0 | Taps: 1 | Escapability: 3.9775757683167017 | Consistency: 0.9487879975720193 | Fun: -16 | Patience: 0
+Sitter 3 | Escapes: 2 | Taps: 6 | Escapability: 5.9553696038274575 | Consistency: 0.5664436451200235 | Fun: 11 | Patience: 5
+Sitter 4 | Escapes: 2 | Taps: 0 | Escapability: 6.2164181283364055 | Consistency: 0.8076840000454588 | Fun: -8 | Patience: 0
+Sitter 5 | Escapes: 2 | Taps: 1 | Escapability: 5.5713824109986 | Consistency: 0.9490365657996064 | Fun: -5 | Patience: 0
+Sitter 6 | Escapes: 1 | Taps: 2 | Escapability: 5.8029338007212115 | Consistency: 0.5828233132722018 | Fun: -2 | Patience: 3
+Sitter 7 | Escapes: 3 | Taps: 0 | Escapability: 6.352734438949831 | Consistency: 0.7594725983794508 | Fun: 0 | Patience: 0
+Sitter 8 | Escapes: 1 | Taps: 1 | Escapability: 6.057130933318997 | Consistency: 0.8987268477470838 | Fun: -7 | Patience: 0
+Sitter 9 | Escapes: 2 | Taps: 0 | Escapability: 4.475344696643007 | Consistency: 0.7138973623558487 | Fun: -13 | Patience: 1
+
+Current Tappers Status:
+Tapper 1 is guarding Sitter 1 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 6.584935847222603 | Consistency: 0.8468934167044537 | Fun: -18
+Tapper 2 is guarding Sitter 2 | Successful Taps: 1 | Failed Taps: 0 | Tapability: 5.393477976802623 | Consistency: 0.6590973100616798 | Fun: -14
+Tapper 3 is guarding Sitter 3 | Successful Taps: 1 | Failed Taps: 4 | Tapability: 7.956144279192846 | Consistency: 0.6220154213265189 | Fun: 15
+Tapper 4 is guarding Sitter 8 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 7.02633100132244 | Consistency: 0.5889487188995859 | Fun: -11
+Tapper 5 is guarding Sitter 5 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.000852692964767 | Consistency: 0.8893595496433022 | Fun: -7
+Tapper 6 is guarding Sitter 4 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 2.9297387352159454 | Consistency: 0.7646782343387106 | Fun: -2
+Tapper 7 is guarding Sitter 6 | Successful Taps: 1 | Failed Taps: 1 | Tapability: 5.980108143785644 | Consistency: 0.7689062972443208 | Fun: -1
+Tapper 8 is guarding None (empty chair) | Successful Taps: 5 | Failed Taps: 2 | Tapability: 5.45135460888232 | Consistency: 0.6785924098020781 | Fun: 8
+Tapper 9 is guarding Sitter 7 | Successful Taps: 0 | Failed Taps: 1 | Tapability: 3.874241151315081 | Consistency: 0.5736948669349908 | Fun: -9
+Tapper 10 is guarding Sitter 9 | Successful Taps: 0 | Failed Taps: 2 | Tapability: 4.086402150047269 | Consistency: 0.8157380809939165 | Fun: 5

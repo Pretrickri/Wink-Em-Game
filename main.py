@@ -1,4 +1,5 @@
 import random
+import copy
 import numpy as np
 import sys
 
@@ -15,6 +16,22 @@ class Sitter:
         self.escapability = np.clip(self.escapability, 1, 10)  # Limit escapability between 1 and 10
         self.consistency = random.uniform(0.5, 1.0)  # How consistent the sitter is
         self.fun = 0  # Fun metric, influenced by interactions
+        self.patienceMax = random.randint(3, 6) # For the future : patience should reflect a normal distribution that depends on the amount of people playing. The more people playing, the more patient the players will likely be.
+        self.patience = copy.copy(self.patienceMax)
+
+    def losePatience(self):
+        self.patience -= 1
+        if self.patience <= 0:
+            self.patience = 0
+
+    def recoverPatience(self):
+        self.patience = copy.copy(self.patienceMax)
+
+    def addFun(self):
+        self.fun += 2
+    
+    def loseFun(self):
+        self.fun -= 1
 
     def escape(self):
         self.escapes += 1  # Increment escapes on a successful escape
@@ -24,7 +41,7 @@ class Sitter:
 
     def __repr__(self):
         # String representation for the Sitter's status
-        return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Fun: {self.fun}"
+        return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience}"
 
 
 # Define the Tapper class
@@ -37,6 +54,22 @@ class Tapper:
         self.tapability = np.clip(self.tapability, 1, 10)  # Limit tapability between 1 and 10
         self.consistency = random.uniform(0.5, 1.0)  # How consistent the tapper is
         self.fun = 0  # Fun metric, influenced by interactions
+        self.patienceMax = random.randint(3, 6) # For the future : patience should reflect a normal distribution that depends on the amount of people playing. The more people playing, the more patient the players will likely be.
+        self.patience = copy.copy(self.patienceMax)
+
+    def losePatience(self):
+        self.patience -= 1
+        if self.patience <= 0:
+            self.patience = 0
+
+    def recoverPatience(self):
+        self.patience = copy.copy(self.patienceMax)
+
+    def addFun(self):
+        self.fun += 2
+    
+    def loseFun(self):
+        self.fun -= 1
 
     def successful_tap(self):
         self.successful_taps += 1  # Increment successful taps
@@ -46,7 +79,7 @@ class Tapper:
 
     def __repr__(self):
         # String representation for the Tapper's status
-        return f"Tapper {self.tapper_id} | Successful Taps: {self.successful_taps}, Failed Taps: {self.failed_taps}, Tapability: {self.tapability}, Consistency: {self.consistency}, Fun: {self.fun}"
+        return f"Tapper {self.tapper_id} | Successful Taps: {self.successful_taps} | Failed Taps: {self.failed_taps} | Tapability: {self.tapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience}"
 
 
 # Define the WinkEmGame class
@@ -64,9 +97,11 @@ class WinkEmGame:
     def remove_fun(self):
         """Reduce fun for all players by a fixed amount each turn."""
         for sitter in self.sitters:
-            sitter.fun -= self.minus_fun
+            if sitter.patience == 0:
+                sitter.loseFun()
         for tapper in self.tappers:
-            tapper.fun -= self.minus_fun
+            if tapper.patience == 0:
+                tapper.loseFun()
 
     def assign_tappers_to_sitters(self):
         """Assign each tapper to a sitter, leaving one tapper for the empty chair."""
@@ -90,6 +125,28 @@ class WinkEmGame:
         empty_chair_tapper = next(tapper for tapper, sitter in self.tapper_sitter_map.items() if sitter is None)
         winked_sitter = random.choice(self.sitters)
         return empty_chair_tapper, winked_sitter
+    
+    def handlePatienceAndFun(self, winker, winked_sitter, sitter_tapper):
+        winker.recoverPatience()
+        winked_sitter.recoverPatience()
+        sitter_tapper.recoverPatience()
+        winker.addFun()
+        winked_sitter.addFun()
+        sitter_tapper.addFun()
+        
+        for sitter in self.sitters:
+            if sitter == winked_sitter : continue
+            sitter.losePatience()
+            if sitter.patience == 0:
+                sitter.loseFun()
+        for tapper in self.tappers:
+            if tapper == winker or tapper == sitter_tapper : continue
+            tapper.losePatience()
+            if tapper.patience == 0:
+                tapper.loseFun()
+
+
+
 
     def random_escape_attempt(self, winked_sitter, sitter_tapper, winker):
         """Determine if the sitter can escape or is tapped."""
@@ -101,10 +158,7 @@ class WinkEmGame:
         print(f"Sitter Value: {temp1}, Tapper Value: {temp2}, Total: {total}, Random: {random_value}")
 
         # Fun metrics
-        winker.fun += 1 + self.minus_fun
-        winked_sitter.fun += 1 + self.minus_fun
-        sitter_tapper.fun += 1 + self.minus_fun
-        self.remove_fun()
+        self.handlePatienceAndFun(winker, winked_sitter, sitter_tapper)
 
         if random_value < temp1:
             # Successful escape
