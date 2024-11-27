@@ -4,6 +4,7 @@ import sys
 import math
 import copy
 
+
 # Redirect output to a file to save the game log
 sys.stdout = open("wink_em_output.txt", "w")
 
@@ -46,7 +47,7 @@ class Sitter:
 
     def __repr__(self):
         # String representation for the Sitter's status
-        return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience}"
+        return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Winkability: {self.winkability} | Fun: {self.fun} | Patience: {self.patience}"
 
 
 # Define the Tapper class
@@ -281,8 +282,6 @@ class WinkEmGame:
             empty_chair_tapper = self.find_winker()
             self.position_based_probability_enhancer(empty_chair_tapper)
             winked_sitter = self.choose_sitter()
-            for sitter in self.sitters:
-                print(f"Sitter ID: {sitter.sitter_id} | Winkability: {sitter.winkability}")
             print(f"Tapper {empty_chair_tapper.tapper_id} winked at Sitter {winked_sitter.sitter_id}.")
             self.reset_winkability()
 
