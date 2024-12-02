@@ -43,7 +43,6 @@ class Sitter:
         # String representation for the Sitter's status
         return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience}"
 
-
 # Define the Tapper class
 class Tapper:
     def __init__(self, tapper_id):
@@ -80,7 +79,6 @@ class Tapper:
     def __repr__(self):
         # String representation for the Tapper's status
         return f"Tapper {self.tapper_id} | Successful Taps: {self.successful_taps} | Failed Taps: {self.failed_taps} | Tapability: {self.tapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience}"
-
 
 # Define the WinkEmGame class
 class WinkEmGame:
@@ -203,7 +201,7 @@ class WinkEmGame:
 
 
 # Run the game
-wink_em_game = WinkEmGame(num_sitters=9, num_iterations=25)
+wink_em_game = WinkEmGame(num_sitters=5, num_iterations=25)
 wink_em_game.run()
 
 # Restore stdout
