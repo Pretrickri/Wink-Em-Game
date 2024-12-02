@@ -47,7 +47,8 @@ class Sitter:
 
     def __repr__(self):
         # String representation for the Sitter's status
-        return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Winkability: {self.winkability} | Fun: {self.fun} | Patience: {self.patience}"
+        # return f"Sitter {self.sitter_id} | Escapes: {self.escapes} | Taps: {self.taps} | Escapability: {self.escapability} | Consistency: {self.consistency} | Winkability: {self.winkability} | Fun: {self.fun} | Patience: {self.patience}"
+        return f"[{self.sitter_id}, {self.escapes}, {self.taps}, {self.escapability}, {self.consistency}, {self.winkability}, {self.fun}, {self.patience}]"
 
 
 # Define the Tapper class
@@ -87,7 +88,6 @@ class Tapper:
     def __repr__(self):
         # String representation for the Tapper's status
         return f"Tapper {self.tapper_id} | Successful Taps: {self.successful_taps} | Failed Taps: {self.failed_taps} | Tapability: {self.tapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience}"
-
 
 # Define the WinkEmGame class
 class WinkEmGame:
@@ -254,6 +254,7 @@ class WinkEmGame:
         random_value = random.uniform(0, total)
 
         print(f"Sitter Value: {temp1}, Tapper Value: {temp2}, Total: {total}, Random: {random_value}")
+        print(f"[{temp1},{temp2},{total},{random_value}]")
 
         # Fun metrics
         self.handlePatienceAndFun(winker, winked_sitter, sitter_tapper)
@@ -283,6 +284,7 @@ class WinkEmGame:
             self.position_based_probability_enhancer(empty_chair_tapper)
             winked_sitter = self.choose_sitter()
             print(f"Tapper {empty_chair_tapper.tapper_id} winked at Sitter {winked_sitter.sitter_id}.")
+            print(f"[{empty_chair_tapper.tapper_id}, {winked_sitter.sitter_id}]")
             self.reset_winkability()
 
             sitter_tapper = self.find_tapper_for_sitter(winked_sitter)
@@ -303,12 +305,13 @@ class WinkEmGame:
         print("\nCurrent Tappers Status:")
         for tapper in self.tappers:
             sitter = self.tapper_sitter_map[tapper]
-            sitter_info = f"Sitter {sitter.sitter_id}" if sitter else "None (empty chair)"
-            print(f"Tapper {tapper.tapper_id} is guarding {sitter_info} | Successful Taps: {tapper.successful_taps} | Failed Taps: {tapper.failed_taps} | Tapability: {tapper.tapability} | Consistency: {tapper.consistency} | Fun: {tapper.fun}")
-
+            #sitter_info = f"Sitter {sitter.sitter_id}" if sitter else "None (empty chair)"
+            sitter_info = f"{sitter.sitter_id}" if sitter else "-1"
+            # print(f"Tapper {tapper.tapper_id} is guarding {sitter_info} | Successful Taps: {tapper.successful_taps} | Failed Taps: {tapper.failed_taps} | Tapability: {tapper.tapability} | Consistency: {tapper.consistency} | Fun: {tapper.fun}")
+            print(f"[{tapper.tapper_id}, {sitter_info}, {tapper.successful_taps}, {tapper.failed_taps}, {tapper.tapability}, {tapper.consistency}, {tapper.fun}]")
 
 # Run the game
-wink_em_game = WinkEmGame(num_sitters=19, num_iterations=8, num_favourites=5, num_hated=5)
+wink_em_game = WinkEmGame(num_sitters=10, num_iterations=10, num_favourites=0, num_hated=0)
 wink_em_game.run()
 
 # Restore stdout
