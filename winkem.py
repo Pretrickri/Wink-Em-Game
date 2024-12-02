@@ -87,7 +87,7 @@ class Tapper:
 
     def __repr__(self):
         # String representation for the Tapper's status
-        return f"Tapper {self.tapper_id} | Successful Taps: {self.successful_taps} | Failed Taps: {self.failed_taps} | Tapability: {self.tapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience}"
+        return f"Tapper {self.tapper_id} | Successful Taps: {self.successful_taps} | Failed Taps: {self.failed_taps} | Tapability: {self.tapability} | Consistency: {self.consistency} | Fun: {self.fun} | Patience: {self.patience},"
 
 # Define the WinkEmGame class
 class WinkEmGame:
@@ -308,7 +308,7 @@ class WinkEmGame:
             #sitter_info = f"Sitter {sitter.sitter_id}" if sitter else "None (empty chair)"
             sitter_info = f"{sitter.sitter_id}" if sitter else "-1"
             # print(f"Tapper {tapper.tapper_id} is guarding {sitter_info} | Successful Taps: {tapper.successful_taps} | Failed Taps: {tapper.failed_taps} | Tapability: {tapper.tapability} | Consistency: {tapper.consistency} | Fun: {tapper.fun}")
-            print(f"[{tapper.tapper_id}, {sitter_info}, {tapper.successful_taps}, {tapper.failed_taps}, {tapper.tapability}, {tapper.consistency}, {tapper.fun}]")
+            print(f"[{tapper.tapper_id}, {sitter_info}, {tapper.successful_taps}, {tapper.failed_taps}, {tapper.tapability}, {tapper.consistency}, {tapper.fun}],")
 
 # Run the game
 wink_em_game = WinkEmGame(num_sitters=10, num_iterations=10, num_favourites=0, num_hated=0)
