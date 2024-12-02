@@ -115,6 +115,7 @@ class WinkEmGame:
                 tapper.loseFun()
 
     def determine_favourites(self):
+        """Returns a list with all the favorite players. Favorites receive a bonus in Winkability"""
         favourites = random.sample(self.sitters, self.num_favourites)  # Select unique favourites
 
         for sitter in favourites:
@@ -124,6 +125,7 @@ class WinkEmGame:
         return favourites
     
     def determine_hated(self):
+        """Retuns a list with all the hated/disliked players. Disliked players have a reduction in their winkability"""
         non_favourites = [sitter for sitter in self.sitters if sitter not in self.favourites]
 
         # Ensure there are enough non-favourites to select from
@@ -152,7 +154,7 @@ class WinkEmGame:
         return tapper_sitter_map
 
     """
-    Updated above
+    Updated above: Sitters and Tappers have 'fun' functions
 
     def remove_fun(self):
         for sitter in self.sitters:
@@ -213,12 +215,15 @@ class WinkEmGame:
                 sitter_temp2.winkability *= (1 + winkability_boost)
 
     def choose_sitter(self):
+        """Choose a sitter among the sitter list based on their winkability (probably to be winked at)"""
         sitters = self.sitters
         winkabilities = [sitter.winkability for sitter in sitters]
         winked_sitter = random.choices(sitters, weights=winkabilities,k=1)[0]
         return winked_sitter
     
     def handlePatienceAndFun(self, winker, winked_sitter, sitter_tapper):
+        """All the three players of this round will recover patience and earn fun while the other players will
+        lose patience and potentially lose fun when their patience runs out."""
         winker.recoverPatience()
         winked_sitter.recoverPatience()
         sitter_tapper.recoverPatience()
@@ -238,6 +243,7 @@ class WinkEmGame:
                 tapper.loseFun()
 
     def reset_winkability(self):
+        """All sitters have their winkability reset to 1. Favorites and Hated still receive their bonuses."""
         for sitter in self.sitters:
             sitter.winkability = 1
         for sitter in self.favourites:
