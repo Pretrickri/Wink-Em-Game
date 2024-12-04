@@ -201,7 +201,7 @@ class WinkEmGame:
 
 
 # Run the game
-wink_em_game = WinkEmGame(num_sitters=5, num_iterations=25)
+wink_em_game = WinkEmGame(num_sitters=10, num_iterations=20)
 wink_em_game.run()
 
 # Restore stdout
