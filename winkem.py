@@ -6,7 +6,7 @@ import copy
 
 
 # Redirect output to a file to save the game log
-sys.stdout = open("2hated.txt", "w")
+sys.stdout = open("wink_em_output.txt", "w")
 
 # Define the Sitter class
 class Sitter:
@@ -317,7 +317,7 @@ class WinkEmGame:
             print(f"[{tapper.tapper_id}, {sitter_info}, {tapper.successful_taps}, {tapper.failed_taps}, {tapper.tapability}, {tapper.consistency}, {tapper.fun}],")
 
 # Run the game
-wink_em_game = WinkEmGame(num_sitters=10, num_iterations=20, num_favourites=0, num_hated=2)
+wink_em_game = WinkEmGame(num_sitters=10, num_iterations=20, num_favourites=2, num_hated=2)
 wink_em_game.run()
 
 # Restore stdout
